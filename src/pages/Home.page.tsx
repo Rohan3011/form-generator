@@ -1,4 +1,5 @@
 import { ColorSchemeToggle } from '@/components/ColorSchemeToggle/ColorSchemeToggle';
+import FormBuilderUI from '@/components/FormGenerator/CustomForm';
 import FormExample from '@/components/FormGenerator/FormExample';
 
 export function HomePage() {
@@ -6,7 +7,8 @@ export function HomePage() {
     <>
       {/* <Welcome /> */}
       {/* <ColorSchemeToggle /> */}
-      <FormExample />
+      {/* <FormExample /> */}
+      <FormBuilderUI />
     </>
   );
 }
